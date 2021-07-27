@@ -19,7 +19,7 @@ describe("Employee", () => {
         })
         // test if can set name via constructor
     test('Checks if you can set name', () => {
-            const name = "Jacob";
+            const name = "Jonathan";
             const obj = new Employee(name);
 
             expect(obj.name).toEqual(name);
@@ -40,7 +40,7 @@ describe("Employee", () => {
         })
         //test to see if getName() returns name test value
     test('Checks if you can get name from getName() function', () => {
-            const name = "jacob";
+            const name = "jonathan";
             const employee = new Employee(name);
 
             expect(employee.getName()).toEqual(name);
@@ -54,7 +54,7 @@ describe("Employee", () => {
         })
         //test to see if getEmail() returns email test value
     test('Checks if you can get email from getEmail() function', () => {
-            const email = "jacob@gmail.com";
+            const email = "4joanthanfoster@gmail.com";
             const employee = new Employee("name", 1234, email);
 
             expect(employee.getEmail()).toEqual(email);
