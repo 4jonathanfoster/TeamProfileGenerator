@@ -1,0 +1,40 @@
+GIVEN a command-line application that accepts user input
+WHEN I am prompted for my team members and their information
+THEN an HTML file is generated that displays a nicely formatted team roster based on user input
+
+Write file (import fs), import roster from index.js, generate HTML file?
+
+WHEN I click on an email address in the HTML
+THEN my default email program opens and populates the TO field of the email with the address
+
+inside of file add the HTML "mail:to" section
+
+WHEN I click on the GitHub username
+THEN that GitHub profile opens in a new tab
+
+Anchor tag for github username.
+
+WHEN I start the application
+THEN I am prompted to enter the team manager’s name, employee ID, email address, and office number
+
+Inqueirer prompt (input): "Enter the manager's name", "Enter employee ID", "Enter email address", "Enter office number" | Manager JS File
+
+WHEN I enter the team manager’s name, employee ID, email address, and office number
+THEN I am presented with a menu with the option to add an engineer or an intern or to finish building my team
+
+Inqueirer prompt (list): Engineer, Intern, Finish Building | Manager JS File
+
+WHEN I select the engineer option
+THEN I am prompted to enter the engineer’s name, ID, email, and GitHub username, and I am taken back to the menu
+
+Inqueirer prompt (input): "Enter the engineer's name", "Enter the engineers ID", "Enter the email", "Enter the github username" | Engineer JS File
+
+WHEN I select the intern option
+THEN I am prompted to enter the intern’s name, ID, email, and school, and I am taken back to the menu
+
+Inqueirer prompt (input): "Enter the intern's name", "Enter the intern ID", "Enter the email", "Enter the school" | Intern JS File
+
+WHEN I decide to finish building my team
+THEN I exit the application, and the HTML is generated
+
+write file
