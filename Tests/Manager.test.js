@@ -1,5 +1,5 @@
 //require Manager 
-const Manager = require('../Employees/Manager');
+const Manager = require('../AllEmployees/Manager');
 
 describe("Manager", () => {
     //create test on manager class

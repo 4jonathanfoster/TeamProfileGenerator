@@ -1,5 +1,5 @@
 //require Engineer
-const Engineer = require('../Employees/Engineer');
+const Engineer = require('../AllEmployees/Engineer');
 
 describe("Engineer", () => {
     //create test on engineer class

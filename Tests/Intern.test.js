@@ -1,5 +1,5 @@
 //Require Intern  
-const Intern = require('../Employees/Intern');
+const Intern = require('../AllEmployees/Intern');
 
 describe("Intern", () => {
     //create test on Intern class

@@ -1,5 +1,5 @@
 //require Employee
-const Employee = require('../Employees/Employee');
+const Employee = require('../AllEmployees/Employee');
 
 
 describe("Employee", () => {

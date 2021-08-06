@@ -1,7 +1,7 @@
 const createManager = function(manager) {
     return `<div class="card">
     <div class="card-top">
-        <h1>${manager.name}</h1>
+        <h1>${manager.empName}</h1>
         <h2>
             ${manager.getRole()}
         </h2>
@@ -17,7 +17,7 @@ const createManager = function(manager) {
 const createIntern = function(intern) {
     return `<div class="card">
     <div class="card-top">
-        <h1>${intern.name}</h1>
+        <h1>${intern.empName}</h1>
         <h2>
             ${intern.getRole()}
         </h2>
@@ -33,7 +33,7 @@ const createIntern = function(intern) {
 const createEngineer = function(engineer) {
     return `<div class="card">
     <div class="card-top">
-        <h1>${engineer.name}</h1>
+        <h1>${engineer.empName}</h1>
         <h2>
             ${engineer.getRole()}
         </h2>
@@ -76,7 +76,7 @@ function HTML(team) {
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta empName="viewport" content="width=device-width, initial-scale=1">
     <link href = "./FinalHTML/reset.css" rel="stylesheet">
     <link href = "./FinalHTML/style.css" rel="stylesheet">
 
