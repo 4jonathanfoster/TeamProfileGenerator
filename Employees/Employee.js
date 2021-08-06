@@ -1,12 +1,13 @@
+// a emplyee class is needed 
 class Employee {
-    constructor (name, id, email) {
-        this.name = name;
+    constructor(empName, id, email) {
+        this.empName = empName;
         this.id = id;
         this.email = email;
     }
 
     getName() {
-        return this.name;
+        return this.empName;
     }
 
     getID() {
@@ -22,4 +23,4 @@ class Employee {
     }
 };
 
-module.exports = Employee
+module.exports = Employee;
