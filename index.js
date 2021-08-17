@@ -25,7 +25,7 @@ function newManager() {
 
             let manager = new Manager(employeeName, employeeID, email, office);
             team.push(manager);
-            newEmployee();
+            newEmployee();,
         })
 }
 

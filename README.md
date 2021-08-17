@@ -33,7 +33,7 @@ An HTML will be created once information has been aquired.
   
   ## Contribution-Guidelines
   
-  Contributions may be approved upon request
+
   
   ## Questions
   GitHub Username: @4jonathanfoster (https://github.com/4jonathanfoster)
